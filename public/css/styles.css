@@ -6,42 +6,52 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
+    box-sizing: border-box;
 }
 
 h3{
     font-size: 24px;
+    box-sizing: border-box;
 }
 
 p{
     font-size: 12px;
+    box-sizing: border-box;
 }
 div.top-header{
     padding: 5%;
+    box-sizing: border-box;
 }
 
 header{
     background-color: #EAC926;
+    box-sizing: border-box;
 }
 
 header div.logo{
     width: 50%;
+    box-sizing: border-box;
 }
 
 header div.logo{
     padding: 10px;
+    box-sizing: border-box;
 }
 header nav{
     font-size: 12px;
     display: none;
+    box-sizing: border-box;
 }
 
 header ul li{
     list-style-type: none;
+    box-sizing: border-box;
 }
 
 header ul li a{
     text-decoration: none;
     color: #000;
+    box-sizing: border-box;
 }
 
 header .form .input{
@@ -50,22 +60,26 @@ header .form .input{
     outline: none;
     color: #666;
     padding: 2px;
+    box-sizing: border-box;
 }
 header .form .submit{
     background-color: #FFF;
     border: 1px solid #000;
     color: #666;
     width: 10%;
+    box-sizing: border-box;
 }
 
 header div.top-header p{
     width: 100%;
     text-align: center;
     margin-top: 10px;
+    box-sizing: border-box;
 }
 
 div.burger-menu{
     text-align: center;
+    box-sizing: border-box;
 }
 
 div.burger-menu i{
@@ -83,17 +97,20 @@ article div.main-article{
     border: solid 1px #ebebeb;
     width: 100%;
     padding: 10px 15px;
-    box-sizing: border-box;   
+    position: relative;
+    box-sizing: border-box; 
 }
 
 article div.main-article i {
     border-radius: 50%;
     border: solid green;
     padding: 7px;
+    box-sizing: border-box;
 }
 
 .price{
     font-size: 18px;
+    box-sizing: border-box;
 }
 
 .discount,
