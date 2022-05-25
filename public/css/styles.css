@@ -1,3 +1,12 @@
+:root{
+    --Amarillo: #EAC926; 
+    --Azul: #03264C; 
+    --Celeste: #1259c3; 
+    --Gris-oscuro: #666; 
+    --Gris-claro: #ebebeb; 
+    --Verde: #39b54a;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -156,6 +165,20 @@ main section article i,
 section h3 {
     margin-bottom: 20px;
     margin-top: 10px;
+}
+
+footer .pie{
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer .pie i{
+    padding: 1em;
+}
+
+footer h5 {
+    padding: 10px;
 }
 
 @media (min-width: 361px){
