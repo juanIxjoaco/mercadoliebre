@@ -9,7 +9,8 @@
 
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
 }
 
 body{
@@ -96,7 +97,7 @@ div.burger-menu i{
     border-radius: 5px;
     color: #FFF;
     font-size: 20px;
-    height: 20px;
+    height: 40px;
     margin: 10px 0px 20px 0px;
     padding: 10px 3px;
     width: 40px;
