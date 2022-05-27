@@ -130,6 +130,7 @@ article div.main-article i {
 .price{
     font-size: 18px;
     box-sizing: border-box;
+    flex-grow: 0.3;
 }
 
 .discount,
@@ -156,7 +157,13 @@ main{
 main section article{
     margin-bottom: 10px;
     background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     
+}
+
+main section article #contenedor-flex {
+    display: flex;
+    padding: 10px;
 }
 
 main section article img{
@@ -166,6 +173,7 @@ main section article img{
 main section article i,
 .discount{
     color: #39b54a;
+    flex-grow: 0.7;
 }
 
 .description {
@@ -202,9 +210,25 @@ footer h5 {
     div.burger-menu {
     display: none;
 }
+    .products {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .products article {
+        width: 47%;
+        margin: 8px auto;
+    }
 }
 
 @media (min-width: 769px){
+
+
+    .products article {
+        
+        width: 23%;
+        margin: 8px auto;
+    }
     
 }
 
