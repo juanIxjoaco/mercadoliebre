@@ -43,61 +43,64 @@
         <main class="register">
             <form action="/" method="POST">
                 <div class="datos-personales">
-                    <input type="text" name="name" placeholder="Nombre y apellido">
-                    <input type="text" name="user" placeholder="Nombre de usuario">
-                    <input type="email" name="email" placeholder="E-mail">
+                    <input class='celdas' type="text" name="name" placeholder="   Nombre y apellido" required>
+                    <input class='celdas' type="text" name="user" placeholder="   Nombre de usuario" required>
+                    <input class='celdas' type="email" name="email" placeholder="   E-mail" required>
                     <br>
-                    <label for="birth_date"><b>Fecha de nacimiento</b></label>
+                    <label class='texto'for="birth_date"><b>Fecha de nacimiento</b></label>
                     <br>
-                    <input type="date" name="birth_date" id="birth_date">
-                    <br>
-                    <input type="text" name="addres" placeholder="Domicilio">
+                    <input class='celdas' type="date" name="birth_date" id="birth_date">
+                    <input class='celdas' type="text" name="addres" placeholder="   Domicilio" required>
                 </div>
                 
-                <h4>Perfil del usuario</h4>
-                <div class="profile">
+                <h4 class='texto'>Perfil del usuario</h4>
+                <br>
+                <div class="perfiles">
                     <input type="radio" name="profile" value="buy" id="buy">
-                    <label for="buy">Comprador</label>
+                    <label class="perfil-comprador" for="buy">Comprador</label>
                     <input type="radio" name="profile" value="sell" id="sell">
                     <label for="sell">Vendedor</label>
                 </div>
 
                 <h4>Intereses</h4>
-                <div class="interests">
-                    <div>
-                        <input type="checkbox" name="interests" value="a" id="a">
-                        <label for="a">Electro</label>
+                <div class="intereses">
+                    <div class="cada-interes">
+                        <input type="checkbox" name="interests" value="electro" id="electo">
+                        <label for="electro">Electro</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="b" id="b">
-                        <label for="b">Moda</label>
+                    <div class="cada-interes">
+                        <input type="checkbox" name="interests" value="moda" id="moda">
+                        <label for="moda">Moda</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="c" id="c">
-                        <label for="c">Hogar</label>
+                    <div class="cada-interes">
+                        <input type="checkbox" name="interests" value="hogar" id="hogar">
+                        <label for="hogar">Hogar</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="d" id="d">
-                        <label for="d">Juguetería</label>
+                    <div class="cada-interes">
+                        <input type="checkbox" name="interests" value="jugetes" id="jugetes">
+                        <label for="jugetes">Juguetería</label>
                     </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="e" id="e">
-                        <label for="e">Vida sana</label>
+                    <div class="cada-interes">
+                        <input type="checkbox" name="interests" value="vidaSana" id="vidaSana">
+                        <label for="vidaSana">Vida sana</label>
                     </div>
                 </div>
                 
                 <h4>Elegí tu foto de usuario</h4>
-                <input type="file" name="avatar">
+                <input class='foto' type="file" name="avatar">
+                <br/>
+                <div class="contrasena">
+                    <input class='celdas' type="password" name="pass" placeholder="Elegí tu contraseña">
+                    <input class='celdas' type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+                </div>
                 <br>
-                <br>
-                <input type="password" name="pass" placeholder="Elegí tu contraseña">
-                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
-                <br>
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
-                <br>
-                <br>
+    
+                <div class="botones">
+                    <input class='boton' type="submit" value="Enviar">
+                    <br>
+                    <input class='boton' type="reset" value="Borrar">
+                </div>
+
             </form>
 
 

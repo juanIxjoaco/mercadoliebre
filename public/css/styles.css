@@ -75,16 +75,6 @@ header ul li a{
     box-sizing: border-box;
 }
 
-/*header .form .input{
-    background-color: #FFF;
-    border: 1px solid #000;
-    outline: none;
-    color: #666;
-    padding: 2px;
-    box-sizing: border-box;
-    font-size: 12px;
-}*/
-
 header div .form {
     align-items: center;
     display: flex;
@@ -229,6 +219,79 @@ footer .pie i{
 footer h5 {
     padding: 10px;
 }
+
+/*ESTILOS DE REGISTER*/
+/*main .register {
+    display: flex;
+    margin: 20px;
+}*/
+main .datos-personales {
+    flex-direction: column;
+    display: flex; 
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+
+main .celdas {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+main .perfiles {
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+main  .perfil-comprador {
+    margin-right: 20px;
+}    
+
+main .intereses {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+main .cada-interes {
+    margin-bottom: 10px;
+}
+
+main .foto {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+main .contrasena {
+    flex-direction: column;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main .botones {
+    flex-direction: column;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main .boton {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: var(--Celeste);
+    color:white;
+}
+/*FIN ESTILOS DE REGISTER*/
+
+
+/*ESTILOS DE LOGIN*/
+
+
+/*FIN ESTILOS DE LOGIN*/
+
 
 @media (min-width: 361px){
     .description {
