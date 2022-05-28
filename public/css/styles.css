@@ -44,18 +44,29 @@ header div.logo{
 }
 
 header div.logo{
-    padding: 10px;
+    padding: 5px;
     box-sizing: border-box;
 }
+
+.top-header #contenedor-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 header nav{
     font-size: 12px;
     display: none;
     box-sizing: border-box;
 }
 
+header ul {
+    display: flex;
+}
+
 header ul li{
     list-style-type: none;
     box-sizing: border-box;
+    display: flex;
 }
 
 header ul li a{
@@ -64,20 +75,40 @@ header ul li a{
     box-sizing: border-box;
 }
 
-header .form .input{
+/*header .form .input{
     background-color: #FFF;
     border: 1px solid #000;
     outline: none;
     color: #666;
     padding: 2px;
     box-sizing: border-box;
+    font-size: 12px;
+}*/
+
+header div .form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
+
+header div.form input{
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 5px;
+    width: 90%;
+}
+
 header .form .submit{
     background-color: #FFF;
-    border: 1px solid #000;
+    border: none;
+    border-radius: 3px;
+    border-left-style: none;
     color: #666;
     width: 10%;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 header div.top-header p{
@@ -205,8 +236,9 @@ footer h5 {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     header nav{
-        display: block;
+        display: flex;
 }
+
     div.burger-menu {
     display: none;
 }
@@ -218,6 +250,25 @@ footer h5 {
     .products article {
         width: 47%;
         margin: 8px auto;
+    }
+
+    .top-header #contenedor-flex{
+        display: flex;
+    }
+
+    header div .logo {
+        width: 33.333%;
+        padding: 0px 5px;
+    }
+
+    header div .form {
+        width: 33.333%;
+        padding: 0px 5px;
+    }
+
+    header #form-compra {
+        width: 33.333%;
+        padding: 0px 5px;
     }
 }
 
