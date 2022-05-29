@@ -234,10 +234,7 @@ footer h5 {
 }
 
 /*ESTILOS DE REGISTER*/
-/*main .register {
-    display: flex;
-    margin: 20px;
-}*/
+
 main .datos-personales {
     flex-direction: column;
     display: flex; 
@@ -308,6 +305,22 @@ main .login {
     margin-top: 20px;  
     margin-bottom: 20px;
 }
+
+main .login-boton {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: var(--Celeste);
+    color:white;
+    transition: background-color 400ms;
+}
+
+main .login-boton:hover {
+   background-color: #0022AA;
+}
+
+
 /*FIN ESTILOS DE LOGIN*/
 
 
