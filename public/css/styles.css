@@ -371,6 +371,14 @@ main .login-boton:hover {
         width: 23%;
         margin: 8px auto;
     }
+
+    footer section {
+        display: flex;
+    }
+
+    footer section div {
+        padding: 10px;
+    }
     
 }
 
