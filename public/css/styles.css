@@ -289,7 +289,12 @@ main .boton {
 
 /*ESTILOS DE LOGIN*/
 
-
+main .login {
+    flex-direction: column;
+    display: flex; 
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
 /*FIN ESTILOS DE LOGIN*/
 
 
