@@ -233,6 +233,15 @@ footer h5 {
     padding: 10px;
 }
 
+footer span {
+    color:  #1259C3;
+    transition: color 500ms;
+}
+
+footer span:hover {
+    color: var(--Gris-oscuro)
+}
+
 /*ESTILOS DE REGISTER*/
 
 main .datos-personales {
