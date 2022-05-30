@@ -66,7 +66,7 @@ header ul {
 header ul li{
     list-style-type: none;
     box-sizing: border-box;
-    display: flex;
+    padding: 5px;
 }
 
 header ul li a{
@@ -337,6 +337,7 @@ main .login-boton:hover {
     
     header nav{
         display: flex;
+        justify-content: space-between;
 }
 
     div.burger-menu {

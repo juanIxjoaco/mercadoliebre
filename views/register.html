@@ -43,13 +43,13 @@
         <main class="register">
             <form action="/" method="POST">
                 <div class="datos-personales">
-                    <input class='celdas' type="text" name="name" placeholder="   Nombre y apellido" required>
+                    <input class='celdas' type="text" name="name" placeholder="   Nombre y apellido" required minlenght="3">
                     <input class='celdas' type="text" name="user" placeholder="   Nombre de usuario" required>
                     <input class='celdas' type="email" name="email" placeholder="   E-mail" required>
                     <br>
                     <label class='texto'for="birth_date"><b>Fecha de nacimiento</b></label>
                     <br>
-                    <input class='celdas' type="date" name="birth_date" id="birth_date">
+                    <input class='celdas' type="date" name="birth_date" id="birth_date" min='01-01-1910' max="01-01-2006">
                     <input class='celdas' type="text" name="addres" placeholder="   Domicilio" required>
                 </div>
                 
@@ -108,17 +108,17 @@
 
         <footer class="alineacion">
             <section class="pie">
-            <span style="color: #1259C3;"><i class="fa-solid fa-credit-card fa-2xl"></i></span>
+            <span><i class="fa-solid fa-credit-card fa-2xl"></i></span>
             <h4>Pagá con tarjeta o en efectivo</h4>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de
                 pago. ¡Y siempre es seguro!</p>
                 <br>
-            <span style="color: #1259C3;"><i class="fa-solid fa-gift fa-2xl"></i></span>
+            <span><i class="fa-solid fa-gift fa-2xl"></i></span>
             <h4>Envío gratis desde $ 1.999</h4>
             <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos</p>
                 <br>
-            <span style="color: #1259C3;"><i class="fa-solid fa-user-shield fa-2xl"></i></span>
+            <span><i class="fa-solid fa-user-shield fa-2xl"></i></span>
             <h4>Seguridad, de principio a fin</h4>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegido.</p>
